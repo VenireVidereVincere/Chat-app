@@ -10,6 +10,9 @@
     "dev": "env-cmd -f ./config/dev.env nodemon src/index.js",
     "start": "node src/index.js"
   },
+  "engines":{
+    "node":"12.2.0"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
